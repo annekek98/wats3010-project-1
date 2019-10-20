@@ -35,6 +35,7 @@ main {
 p {
     padding: 0 5px;
 }
+
 /*typography*/
 h1 {
     font-family: Arial, Helvetica, sans-serif;
@@ -58,4 +59,36 @@ figcaption,
 span {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
 /*page links-nav bar*/
+ul.page-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.page-links li {
+    float: left;
+}
+
+.page-links a {
+    display: block;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.page-links a:hover {
+    background-color: gray;
+    color: white;
+}
+
+.page-links .active {
+    background-color: #ffbf00;
+    color: black;
+}
+/*social links-nav bar*/
