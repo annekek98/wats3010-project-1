@@ -91,4 +91,53 @@ ul.page-links {
     background-color: #ffbf00;
     color: black;
 }
+
 /*social links-nav bar*/
+
+ul.social-links {
+    list-style-type: none;
+    /* trick to getting text to center */
+    /* set height = line-height */
+    height: 48px;
+    line-height: 48px;
+}
+
+.social-links li {
+    display: inline-block;
+    width: 5rem;
+    background-color: #ffbf00;
+    text-align: center;
+}
+
+.social-links a {
+    color: black;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    color: white;
+}
+
+.social-links li:hover {
+    background-color: gray;
+}
+
+/* nav bar*/
+nav {
+    position: relative;
+    height: 48px;
+    background-color: black;
+}
+
+.nav-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.nav-left {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+/*Big Image Figure*/
